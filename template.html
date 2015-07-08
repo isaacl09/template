@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Template</title>
+		<meta name="description" content="Template">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<link href="main.css" rel="stylesheet">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+
+	</head>
+	
+	<style>
+		body{
+			padding-top: 40px;
+			}
+		
+	
+	</style>
+
+	<body>
+
+		<!--Navbar-->
+		<div class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+			<div class="container">
+				
+				<div class="navbar-header">
+					<button type ="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						
+					</button>
+
+					<a href="" class="navbar-brand">Boostrap Template</a>
+				</div> <!--end navbar-header-->
+				
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					
+				<a href="" class="btn btn-info navbar-btn navbar-right">Download Now</a>
+				
+
+
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#Home">Home</a>
+						<li><a href="#feedback">Feedback</a>
+						<li><a href="#gallery">Gallery</a>
+						
+						<li class="dropdown">
+							<a href="#features" class="dropdown-toggle" data-toggle="dropdown">Features <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li class="dropdown-header">Links</li>
+								<li><a href="#Link">Link 1</a></li>
+								<li><a href="#SLink">Link 2</a></li>
+							</ul>
+						
+						</li>
+						<li><a href="#Subscribe">Subscribe</a></li>
+						
+						<li><a href="#contact">Contact</a>
+					</ul>
+				</div><!--collapse-->
+			</div>	<!--end container-->
+		</div> <!--end navbar-->	
+
+		<!--jumbotron-->
+		<div class="jumbotron text-center" >
+			<div class="container">
+				<h1>Bootstrap Template</h1>	
+				<p>Hello, check out my template I made from a tutorial from YouTube</p>
+
+				<div class="btn-group">
+					<a href="" class="btn btn-lg btn-info">Download</a>
+					<a href="" class="btn btn-lg btn-warning">Visit Store</a>
+					<a href="" class="btn btn-lg btn-success">Spread the Word</a>
+				</div><!--button group-->
+			</div><!--container-->
+		</div><!--end jumbotron-->
+
+		<!-- Carousel// -->
+		<div class="container">
+			<div class="carousel slide" data-ride="carousel" id="myCarousel">
+					
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="city1.jpg" alt="...">
+						<div class="carousel-caption">
+							<h2>Nice City</h2>
+							<p>This city has everything</p>
+						</div>
+
+					</div>
+					
+					<div class="item">
+						<img src="city2.jpg" alt="...">
+						<div class="carousel-caption">
+							<h2>Ok City</h2>
+							<p>This city has mostly everything</p>
+						</div>
+					</div>
+					
+					<div class="item">
+						<img src="beach.jpg" alt="...">
+						
+						<div class="carousel-caption">
+							<h2>Beautiful beach house</h2>
+							<p>Great looking place</p>
+						</div>
+					</div>
+				</div>
+		 
+		 		<!-- Left and right controls -->
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev" role="button">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					
+				</a>
+
+				<a class="carousel-control right" href="#myCarousel" data-slide="next" role="button"> 
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					
+				</a>
+
+
+			</div><!--end carousel slider-->
+		</div> <!--end container-->
+		<div class='container'>
+			<!-- modal -->
+				
+				<button class="btn btn-primary" data-toggle='modal' data-target="#myModal">Launch</button>
+
+				<div class='modal' id='myModal'>	
+					<div class ='modal-dialog'>
+						<div class='modal-content'>
+							<div class='modal-header'>
+								<button type='button' class='close' data-dismiss='modal'>x</button>
+
+								<h4 class='modal-title' id='myModalLabel'>Modal Title</h4>
+							
+							</div>
+							
+							<div class='modal-body'>
+							What a fantastic modal!	
+							</div>
+
+							<div class='modal-footer'>	
+								<button type='button' class='btn btn-primary' data-dismiss='modal'>close</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- modal -->
+		</div>
+
+		<div class="container">	
+			<section>
+				<div class="page-header" id="feedback">
+					<h2>Feedback<small>Check out my Feedback!</small></h2>
+				</div><!--end feedback-->
+
+				<div class="row">
+					<div class="col-lg-4">
+						<blockquote>
+							<p>Content here. Lots of it. Put what you need to put. Person, places, things. Whatever necessary information that needs to be displayed. Main components.
+								
+							</p>
+							<footer>Inspector Lee</footer>
+							<a href="#" class="btn btn-danger">View</a>
+						</blockquote>
+					</div>
+
+					<div class="col-lg-4">
+						<blockquote>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae dignissimos alias voluptas quod repellat et esse debitis. Magni, soluta, quos. Vitae praesentium sequi, doloremque aliquid velit tempora nemo id totam.</p>
+
+					
+							<footer>Inspector Lee</footer>
+							<a href="#" class="btn btn-danger">View</a>
+						</blockquote>
+					</div>
+
+					<div class="col-lg-4">
+						<blockquote>
+							<p>Content here. Lots of it. Put what you need to put. Person, places, things. Whatever necessary information that needs to be displayed. Main components.
+								
+							</p>
+							<footer>Inspector Lee</footer>
+							<a href="#" class="btn btn-danger">View</a>
+						</blockquote>
+					</div>
+				</div><!--end row-->
+			</section>
+		</div> <!--end container-->
+
+<!--call to action-->
+		<section>
+			<div class="well text-center">
+				<div clas="container" id="Subscribe">
+					<h3>Subscribe for more stuff!</h3>
+						<p>Enter your name and email</p>
+
+					<form action="" class="form-inline">>
+						<div class="form-group">
+							<label for="subscription">Subscribe</label>
+							<input type="text" class="form-control" id="subscription" placeholder="Your name">
+						</div>
+
+						<div class="form-group">
+							<label for="email">Email Address</label>
+							<input type="text" class="form-control" id="email" placeholder="Your email">
+						</div>
+						<button type="submit" class="btn btn-info">Subscribe</button>
+						<hr>
+
+
+					</form>
+				</div><!--end container-->
+			</div><!--end well-->
+		</section>	<!--call to action-->
+
+	
+	<!-- Footer-->
+		<div class="navbar navbar-inverse" role="navigation">
+			<div class="container">
+
+				<div class="row">
+					<div id="footer-links center">
+						<ul>
+							<li>© 2015 Ilee</li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Chinese</a></li>
+							<li><a href="#">Terms of Use</a></li>
+							<div class="navbar-text pull-right">
+								<a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+								<a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+								<a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+							</div> <!-- pull right -->
+						</ul>
+					</div> <!--footer links-->
+				</div> <!--row-->
+
+			</div><!--end container-->
+		</div><!--end footer-->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		
+	</body>
+
+
+</html>
